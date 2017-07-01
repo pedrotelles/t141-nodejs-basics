@@ -1,4 +1,4 @@
 
-const useful_string = require('useful-string')
+const usefulstring = require('useful-string')
 
-console.log(string.toCamelCase('edy segura'))
+console.log(useful.toCamelCase('edy segura'))
