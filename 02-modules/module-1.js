@@ -1,18 +1,17 @@
 console.log('module 1')
 
 let encapsulatedVariable = 'Xurupitas'
-
-function sayHello(name = '') {
-    console.log(`Hi ${name}!`)
+function sayHello(name=''){
+    console.log(`Hi ${name}`)
 }
 
-function getEncapsulatedVar() {
+function getEncapsulated(){
     return encapsulatedVariable
 }
 
-//expose method sayHello
+//exports
+
 module.exports = {
     sayHello,
-    getEncapsulatedVar,
-    "name": "module-1"
+    getEncapsulated
 }

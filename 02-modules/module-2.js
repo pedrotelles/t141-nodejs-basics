@@ -1,7 +1,5 @@
-console.log('module 2')
-
-function getName() {
+function getName(){
+    //node hello Renan Ponte
     return process.argv[2]
 }
-
 module.exports = getName
