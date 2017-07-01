@@ -1,4 +1,4 @@
 
-const usefulstring = require('useful-string')
+const string = require('useful-string')
 
-console.log(useful.toCamelCase('edy segura'))
+console.log(string.toCamelCase('Pedro Henrique Telles'))
